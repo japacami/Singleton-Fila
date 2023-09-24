@@ -39,7 +39,7 @@ public class Fila {
             }
             tamanho--;
         } else {
-            System.out.println("A fila de impressão está vazia, nenhum documento para remover.");
+            System.out.println("A fila de impressão está vazia, não há nenhum documento para remover.");
         }
     }
 
@@ -58,7 +58,7 @@ public class Fila {
                 tamanho = capacidade;
             }
         } else {
-            System.out.println("A capacidade deve ser um valor positivo.");
+            System.out.println("A capacidade deve ser um valor positivo para ser válido.");
         }
     }
 }
